@@ -1,2 +1,2 @@
-# profile
-Mikrostoritev skrbi za upravljanje s profilom
+# payments
+Mikrostoritev skrbi za upravljanje s plačili

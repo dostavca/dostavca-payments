@@ -10,12 +10,11 @@ import java.net.URL;
 import java.util.logging.Logger;
 
 /**
- * Created by Aljaz on 22/11/2017.
+ * Created by Aljaz on 14/12/2017.
  */
 
 @Health
 @ApplicationScoped
-@ConfigBundle("profile-config")
 public class HealthCheckBean implements HealthCheck {
 
     private static final String url = "https://paypal.com";
