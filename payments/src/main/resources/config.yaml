@@ -1,0 +1,22 @@
+kumuluzee:
+  name: dostavca-profile
+  env:
+    name: dev
+  version: 1.0.0
+  server:
+    base-url: 35.195.147.163:8081
+    http:
+      port: 8081
+  config:
+      start-retry-delay-ms: 500
+      max-retry-delay-ms: 900000
+      etcd:
+        hosts: http://35.195.125.144:2379
+  discovery:
+    etcd:
+      hosts: http://35.195.125.144:2379
+    ttl: 20
+    ping-interval: 15
+  metrics:
+    servlet:
+      mapping: /metrics
