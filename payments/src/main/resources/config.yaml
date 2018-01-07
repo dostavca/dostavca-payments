@@ -13,6 +13,7 @@ kumuluzee:
       etcd:
         hosts: http://35.195.125.144:2379
   discovery:
+    cluster: dostavca
     etcd:
       hosts: http://35.195.125.144:2379
     ttl: 20
